@@ -8,7 +8,7 @@ const Sidebar = () => {
 
     const items = [
         {
-            label: "Home",
+            label: "Bread Loaf",
             href: "/",
             icon: BsHouseFill
         },
@@ -40,7 +40,7 @@ const Sidebar = () => {
                             />
                     ))}
                     <SidebarItem onClick={() => {}} icon = {BiLogOut} label = "Logout" />
-                    <SidebarTweetButton />
+                    <SidebarTweetButton  />
                 </div>
             </div>
 
