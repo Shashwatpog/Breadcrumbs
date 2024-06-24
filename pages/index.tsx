@@ -4,7 +4,7 @@ import Header from "../components/Header";
 export default function Home() {
   return (
     <>
-      <Header label = "Bread Loaf" />
+      <Header label = "Bread Base" />
     </>
   )
 }
