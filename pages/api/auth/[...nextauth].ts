@@ -39,7 +39,6 @@ export default NextAuth({
 
                 return user;
             }
-            }
         })
     ],
     debug: process.env.NODE_ENV === 'development',
