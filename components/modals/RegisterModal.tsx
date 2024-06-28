@@ -42,7 +42,7 @@ const RegisterModal = () => {
                 username,
             });
 
-            toast.success('Account Created ');
+            toast.success('Welcome to the bakery, your account is fresh outta the oven!');
 
             signIn('credentials', {
                 email,
@@ -52,7 +52,7 @@ const RegisterModal = () => {
             registerModal.onClose();
         } catch(error){
             console.log(error);
-            toast.error('Something went wrong');
+            toast.error('Oh no! the oven is too hot!');
         } finally {
             setIsLoading(false);
         } 
@@ -93,7 +93,7 @@ const RegisterModal = () => {
 
     const footerContent = (
         <div className = "text-neutral-400 text-center mt-4">
-            <p>Already got an account?
+            <p>Already baked with us?
                 <span onClick = {onToggle} className = "text-white cursor-pointer hover:underline"> Sign In</span>
             </p>
         </div>
