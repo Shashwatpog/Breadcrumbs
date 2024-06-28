@@ -5,14 +5,14 @@ export default async function handler(
     req: NextApiRequest,
     res: NextApiResponse
 ) {
-    if (req.method != 'GET'){
+    if (req.method !== 'GET'){
         return res.status(405).end();
     }
 
     try{
         const { userId } =  req.query;
 
-        if (!userId || typeof userId != 'string'){
+        if (!userId || typeof userId !== 'string'){
             throw new Error('Invalid ID');
         }
 
@@ -28,9 +28,9 @@ export default async function handler(
                     has: userId
                 }
             }
-        })
+        });
 
-        return res.status(200).json({ ...existingUser, followersCount})
+        return res.status(200).json({ ...existingUser, followersCount});
 
 
     } catch (error){

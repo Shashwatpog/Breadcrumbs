@@ -19,7 +19,7 @@ const Header: React.FC<HeaderProps> = ({ label, showBackArrow}) => {
                 {
                     showBackArrow && (
                         <BiArrowBack
-                            onclick = {handleBack}
+                            onClick = {handleBack}
                             color = "white"
                             size = {20}
                             className = "cursor-pointer opacity  hover:opacity-70 transition"

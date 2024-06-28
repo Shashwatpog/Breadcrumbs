@@ -14,18 +14,18 @@ const Sidebar = () => {
 
     const items = [
         {
-            label: "Bread Loaf",
+            label: "Bread Oven",
             href: "/",
             icon: BsHouseFill
         },
         {
-            label: "Notifications",
+            label: "Bread Bells",
             href: "/notifications",
             icon: BsBellFill,
             auth:  true
         },
         {
-            label: "Profile",
+            label: "Pantry",
             href: "/user/123",
             icon: FaUser,
             auth: true
