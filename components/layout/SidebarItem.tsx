@@ -7,7 +7,7 @@ import { BsDot } from "react-icons/bs";
 
 interface SidebarItemProps {
     label: string
-    href: string
+    href?: string
     icon: IconType
     onClick?: () => void;
     auth? : boolean;
