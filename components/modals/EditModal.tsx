@@ -79,7 +79,7 @@ const EditModal = () => {
             />
             <Input 
                 placeholder="Name"
-                onChange={(e) => setName(e.target.value)}
+                onChange= {(e) => setName(e.target.value)}
                 value={name}
                 disabled={isLoading}
             />
