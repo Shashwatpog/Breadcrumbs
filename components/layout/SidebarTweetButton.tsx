@@ -1,5 +1,5 @@
 import { useRouter } from "next/router"
-import { FaFeather } from "react-icons/fa"
+import { BsPatchPlusFill } from "react-icons/bs";
 import useLoginModal from "@/hooks/useLoginModal"
 import { useCallback } from "react";
 
@@ -17,17 +17,18 @@ const SidebarTweetButton = () => {
                 mt-6
                 lg:hidden
                 rounded-full
-                h-1
+                h-14
                 w-14
                 p-4
                 flex
                 items-center
                 justify-center
-                bg-rose-400
+                bg-orange-100
                 hover:bg-opacity-80
+                hover:bg-white
                 transition
                 cursor-pointer">
-                    <FaFeather size = {24} color = "white" />
+                    <BsPatchPlusFill size = {24} color = "rgb(219 39 119)"/>
                 </div>
                 <div className="
                     mt-6

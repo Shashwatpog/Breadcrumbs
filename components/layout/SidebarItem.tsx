@@ -54,7 +54,7 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
                 hover:bg-opacity-50
                 cursor-pointer
                 lg:hidden">
-                <Icon size = {28} color = "rose" />
+                <Icon size = {28} color = "#ff9500" />
                 {alert ? <BsDot className="text-pink-400 absolute -top-4 left-0" size={70}/> : null}
 
             </div>
@@ -71,7 +71,7 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
                 hover:bg-orange-400
                 hover:bg-opacity-20
                 cursor-pointer">
-                <Icon size = {24} color = "rose" />
+                <Icon size = {24} color = "#ff9500" />
                 <p className="hidden lg:block text-orange-300 font-medium text-xl hover:text-rose-300">
                     {label}
                 </p>

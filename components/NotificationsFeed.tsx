@@ -1,4 +1,3 @@
-import { BsTwitter } from "react-icons/bs";
 import { useEffect } from "react";
 
 import useCurrentUser from "@/hooks/useCurrentUser";

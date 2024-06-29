@@ -65,7 +65,7 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
                         ></textarea>
                         <hr className="opacity-0 peer-focus:opacity-100 h-[2px] w-full border-orange-50 transition" />
                         <div className="mt-4 flex flex-row justify-end">
-                            <Button disabled={isLoading || !body} onClick={onSubmit} label="Bake" fullHeight/>
+                            <Button disabled={isLoading || !body} onClick={onSubmit} label="Bake" fullHeight secondary/>
                         </div>
                     </div>
                 </div>
@@ -73,8 +73,8 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
                 <div className="py-4">
                     <h1 className="text-black text-2xl text-center mb-4 font-bold">Welcome to Bread Crumbs</h1>
                     <div className="flex flex-row items-center justify-center gap-4">
-                        <Button fullHeight label="Login" onClick={loginModal.onOpen}/>
-                        <Button fullHeight label="Register" onClick={registerModal.onOpen} />
+                        <Button fullHeight label="Login" onClick={loginModal.onOpen} secondary/>
+                        <Button fullHeight label="Register" onClick={registerModal.onOpen} secondary/>
                     </div>
                 </div>
             )}

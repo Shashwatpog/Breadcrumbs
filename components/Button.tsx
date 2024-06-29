@@ -37,9 +37,9 @@ const Button: React.FC<ButtonProps> = ({
             border-2
             ${fullWidth ? "w-full" : "w-fit"}
             ${fullHeight ? "py-2" : "h-fit"}
-            ${secondary ? "bg-white" : "bg-rose-600"}
-            ${secondary ? "text-black" : "text-white"}
-            ${secondary ? "border-rose-600" : "border-pink-300"}
+            ${secondary ? "bg-rose-600" : "bg-orange-600"}
+            ${secondary ? "text-white" : "text-white"}
+            ${secondary ? "border-rose-300" : "border-orange-300"}
             ${large ? "text-xl" : "text-md"}
             ${large ? "py-5" : "px-4"}
             ${large ? "py-3" : "px-2"}
