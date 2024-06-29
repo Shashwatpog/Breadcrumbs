@@ -15,7 +15,7 @@ const UserView = () => {
     if (isLoading || !fetchedUser) {
         return(
             <div className = "flex justify-center items-center h-full">
-                <ClipLoader color = "magenta" size = {80}/>
+                <ClipLoader color = "white" size = {80}/>
             </div>
         )
     }

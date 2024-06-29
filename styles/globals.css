@@ -5,10 +5,10 @@
 @tailwind apply;
 
 :root {
-  @apply h-full bg-black
+  @apply h-full bg-orange-50
 
 }
 
 body {
-  @apply h-full bg-black
+  @apply h-full bg-orange-50
 }

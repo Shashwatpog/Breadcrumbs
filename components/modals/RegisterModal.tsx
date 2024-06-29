@@ -92,9 +92,9 @@ const RegisterModal = () => {
     );
 
     const footerContent = (
-        <div className = "text-neutral-400 text-center mt-4">
+        <div className = "text-white text-center mt-4">
             <p>Already baked with us?
-                <span onClick = {onToggle} className = "text-white cursor-pointer hover:underline"> Sign In</span>
+                <span onClick = {onToggle} className = "text-red-400 cursor-pointer hover:underline"> Sign In</span>
             </p>
         </div>
     );

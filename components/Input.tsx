@@ -20,16 +20,16 @@ const Input: React.FC<InputProps> = ({ placeholder, value, type, disabled, onCha
                 w-full
                 p-4
                 text-lg
-                bg-black
+                bg-orange-50
                 border-2
-                border-neutral-800
+                border-orange-100
                 rounded-md
                 outline-none
-                text-white
-                focus:border-sky-500
+                text-rose-400
+                focus:border-rose-400
                 focus:border-2
                 transition
-                disabled:bg-neutral-900
+                disabled:bg-white
                 disabled:opacity-70
                 disabled:cursor-not-allowed
             "    

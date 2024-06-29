@@ -47,15 +47,15 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
                 h-14
                 w-14
                 flex
-                items-center
-                justify-center
+                items-end
+                justify-end
                 p-4
-                hover:bg-slate-300
-                hover:bg-opacity-10
+                hover:bg-white
+                hover:bg-opacity-50
                 cursor-pointer
                 lg:hidden">
-                <Icon size = {28} color = "white" />
-                {alert ? <BsDot className="text-red-600 absolute -top-4 left-0" size={70}/> : null}
+                <Icon size = {28} color = "rose" />
+                {alert ? <BsDot className="text-pink-400 absolute -top-4 left-0" size={70}/> : null}
 
             </div>
             <div 
@@ -63,18 +63,19 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
                 relative
                 hidden
                 lg:flex
+                justify-center
                 items-center
                 gap-4
                 p-4
                 rounded-full
-                hover:bg-slate-300
-                hover:bg-opacity-10
+                hover:bg-orange-400
+                hover:bg-opacity-20
                 cursor-pointer">
-                <Icon size = {24} color = "white" />
-                <p className="hidden lg:block text-white text-xl">
+                <Icon size = {24} color = "rose" />
+                <p className="hidden lg:block text-orange-300 font-medium text-xl hover:text-rose-300">
                     {label}
                 </p>
-                {alert ? <BsDot className="text-red-600 absolute -top-4 left-0" size={70}/> : null}
+                {alert ? <BsDot className="text-pink-400 absolute -top-4 left-0" size={70}/> : null}
             </div>
         </div>
     );

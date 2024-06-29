@@ -47,7 +47,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
     return (
         <div 
             {...getRootProps({
-                className: "w-full p-4 text-white text-center border-2 border-dotted rounded-md border-neutral-600"
+                className: "w-full p-4 text-rose-400 text-center border-2 border-dotted rounded-md border-rose-400"
             })}
         >
             <input {...getInputProps()} />
@@ -62,7 +62,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
                         />
                     </div>
                 ) : (
-                    <p className = "text-white">{label}</p>
+                    <p className = "text-orange-400 font-semibold">{label}</p>
                 )
             }
         </div>

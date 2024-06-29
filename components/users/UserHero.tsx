@@ -15,7 +15,7 @@ const UserHero: React.FC<UserHeroProps> = ({ userId }) => {
 
     return (
         <div>
-            <div className="bg-neutral-700 h-44 relative">
+            <div className="bg-rose-300 h-44 relative">
                 {fetchedUser?.coverImage && (
                     <Image
                         src={fetchedUser.coverImage}
