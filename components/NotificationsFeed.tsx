@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-
+import Image from 'next/image';
 import useCurrentUser from "@/hooks/useCurrentUser";
 import useNotifications from "@/hooks/useNotifications";
 
@@ -23,7 +23,7 @@ const NotificationsFeed = () => {
         <div className="flex flex-col">
             {fetchedNotifications.map((notification: Record<string, any>) => (
                 <div key={notification.id} className="flex flex-row items-center p-6 gap-4 border-b-[2px] border-orange-300">
-                    <img src = "/logo.png" alt = "logo" />
+                    <Image src = "/logo.png" alt = "logo" />
                     <p className="text-orange-400 font-semibold">
                         {notification.body}
                     </p>
