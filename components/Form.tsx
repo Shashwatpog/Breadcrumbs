@@ -71,7 +71,7 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
                 </div>
             ) : (
                 <div className="py-4">
-                    <h1 className="text-black text-2xl text-center mb-4 font-bold">Welcome to Bread Crumbs</h1>
+                    <h1 className="text-orange-400 text-2xl text-center mb-4 font-bold">Welcome to Bread Crumbs</h1>
                     <div className="flex flex-row items-center justify-center gap-4">
                         <Button fullHeight label="Login" onClick={loginModal.onOpen} secondary/>
                         <Button fullHeight label="Register" onClick={registerModal.onOpen} secondary/>
