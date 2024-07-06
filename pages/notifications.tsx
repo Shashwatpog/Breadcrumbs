@@ -3,7 +3,7 @@ import { getSession } from "next-auth/react";
 
 import Header from "@/components/Header";
 import NotificationsFeed from "@/components/NotificationsFeed";
-
+export const dynamic = 'force-dynamic'
 export async function getServerSideProps(context: NextPageContext) {
     const session = await getSession(context);
 
